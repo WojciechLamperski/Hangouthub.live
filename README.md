@@ -6,5 +6,4 @@ https://hangouthub.live \
 \
 A screenshot from a meeting (censored due to privacy concernes 😉) \
 \
-
 ![Zrzut ekranu z 2024-08-07 16-56-11](https://github.com/user-attachments/assets/1d3474a4-4812-4468-a024-455e346cbdb0)
