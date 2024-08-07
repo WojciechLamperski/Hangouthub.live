@@ -1,0 +1,56 @@
+.advertise{
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #F5F1EB;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #272424;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    color: #e4d9d9;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.submit:disabled,
+.submit[disabled]{
+    background-color: #d3b8b8;
+    color: #605959;
+}
+
+.anchor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    text-underline: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25px;
+}
+

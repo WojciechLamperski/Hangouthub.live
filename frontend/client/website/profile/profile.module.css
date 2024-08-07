@@ -1,0 +1,44 @@
+.section{
+    width: 100%;
+}
+
+.wrapper{
+    background-color: #F5F1EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.title{
+    font-weight: 300;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.delete{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #F46A6A;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.delete:disabled,
+.delete[disabled]{
+    background-color: #a64646;
+    color: white;
+}
